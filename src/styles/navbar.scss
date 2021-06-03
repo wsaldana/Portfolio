@@ -7,3 +7,14 @@
     align-items: center;
     box-shadow: 3px 0px 10px 0px #aaa;
 }
+
+#navbarContainer ul {
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbarContainer li{
+    padding: 10px 0px 10px 0px;
+}
