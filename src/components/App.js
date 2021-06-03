@@ -1,4 +1,10 @@
 import React, { Component } from 'react'
+import Navbar from './Navbar';
+import Home from './Home';
+import About from './About';
+import Web from './Web';
+import Mobile from './Mobile';
+import Contact from './Contact';
 
 export default class App extends Component {
 
@@ -8,9 +14,16 @@ export default class App extends Component {
 
     render() {
         return (
-            <div>
-                <h1>Hello</h1>
-            </div>
+            <>
+                <Navbar />
+                <div className="container" id="mainContainer">
+                    <Home />
+                    <About />
+                    <Web />
+                    <Mobile />
+                    <Contact />
+                </div>
+            </>
         )
     }
 }
