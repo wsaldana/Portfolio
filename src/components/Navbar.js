@@ -9,7 +9,13 @@ import PhoneIphoneIcon from '@material-ui/icons/PhoneIphone';
 import EmailIcon from '@material-ui/icons/Email';
 
 const scrollWindow = (index) => { 
-    window.scrollTo(0, window.innerHeight * index)
+    const scroller = document.getElementById("mainContainer")
+    //scroller.scrollTo(0, window.innerHeight * index)
+    scroller.scroll({
+        top: window.innerHeight * index,
+        left: 0,
+        behavior: 'smooth'
+    });
 }
 
 export default class Navbar extends Component {
