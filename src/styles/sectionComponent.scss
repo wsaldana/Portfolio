@@ -1,0 +1,21 @@
+h1 {
+    font-family: Norwester;
+    font-size: 8vw!important;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.25vw!important;
+}
+
+h4 {
+    font-family: 'Zilla Slab', serif;
+    font-size: 5.6vw!important;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    display: inline;
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    width: 100%;
+    margin: 0;
+}
