@@ -1,0 +1,23 @@
+.cardGroup > .row {
+    overflow-x: auto;
+    overflow-y: auto;
+    flex-wrap: nowrap;
+    padding: 15px;
+    width: 100%;
+}
+
+.cardGroup > .row > .col {
+    display: inline-block;
+    float: none;
+}
+
+#container1 {
+    height: auto!important; 
+    padding-bottom: 0!important;
+}
+
+#container2 {
+    height: auto!important; 
+    padding-top: 0!important;
+}
+

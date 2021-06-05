@@ -16,7 +16,7 @@ export default class App extends Component {
         return (
             <>
                 <Navbar />
-                <div className="container" id="mainContainer">
+                <div className="container-fluid" id="mainContainer">
                     <Home />
                     <About />
                     <Web />
