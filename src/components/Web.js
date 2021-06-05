@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react'
+import React, { useRef } from 'react'
 import Card from './Card'
 import '../styles/web.scss';
 import '../styles/sectionComponent.scss';
