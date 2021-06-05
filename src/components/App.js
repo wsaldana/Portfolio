@@ -5,6 +5,7 @@ import About from './About';
 import Web from './Web';
 import Mobile from './Mobile';
 import Contact from './Contact';
+import Background from './Background';
 
 export default class App extends Component {
 
@@ -15,6 +16,7 @@ export default class App extends Component {
     render() {
         return (
             <>
+                <Background />
                 <Navbar />
                 <div className="container-fluid" id="mainContainer">
                     <Home />

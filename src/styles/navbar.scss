@@ -5,7 +5,9 @@
     top: 0;
     display: flex;
     align-items: center;
+    background-color: white;
     box-shadow: 3px 0px 10px 0px #aaa;
+    z-index: 2!important;
 }
 
 #navbarContainer ul {

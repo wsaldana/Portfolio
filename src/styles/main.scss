@@ -15,6 +15,7 @@
 
 body {
   height: 100vh;
+  background-color: rgb(252, 243, 231);
 }
 
 * {
@@ -48,3 +49,32 @@ body {
   scroll-snap-align: start;
 }
 
+.svg-background {
+  position: fixed;
+  z-index: -1!important;
+}
+
+#svg1 {
+  top:0;
+  right: 0!important;
+  width: 50vw;
+  transition: 500ms linear;
+}
+
+#svg2 {
+  bottom:0;
+  left: 0;
+  width: 30vw;
+  transition: 500ms linear;
+}
+
+#svg3 {
+  bottom:0;
+  right: 0;
+  width: 15vw;
+  transition: 500ms linear;
+}
+
+.svg-background:hover {
+  transform: scale(1.2, 1.2);
+}

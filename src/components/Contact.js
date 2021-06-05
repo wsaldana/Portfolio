@@ -6,6 +6,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import MailIcon from '@material-ui/icons/Mail';
 import PhoneIcon from '@material-ui/icons/Phone';
 import { makeStyles } from '@material-ui/core/styles';
+import Swal from 'sweetalert2';
 
 const useStyles = makeStyles((theme) => ({
     btnSend: {
@@ -49,7 +50,21 @@ export default function Contact() {
                     </div> 
                     <br/>
                     <div class="col"> 
-                        <Button variant="contained" color="primary" className={classes.btnSend}>
+                        <Button variant="contained" color="primary" className={classes.btnSend} onClick={()=>{
+                            Swal.fire({
+                                icon: 'success',
+                                title: 'Thank you!',
+                                text: "I'll be getting back to you as soon as posible.",
+                                width: '50%',
+                                padding: '3em',
+                                backdrop: `
+                                  rgba(0,0,123,0.4)
+                                  url("http://www.clipartbest.com/cliparts/eTM/7Eo/eTM7Eo7oc.gif")
+                                  left top
+                                  no-repeat
+                                `
+                            })}
+                        }>
                             SEND 
                         </Button>
                     </div> 
